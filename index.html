@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="onSubmitForm()">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email">
+
+    </div>
+
+    <div>
+        <label for="number">Number</label>
+        <input type="text" name="number" id="number">
+
+    </div>
+    <div>
+        <label for="message">Message</label>
+        <input type="text" name="message" id="message">
+
+    </div>
+
+    <div>
+        <input type="submit" value="Submit" id="btn1">
+        <input type="reset" value="Reset" id="btn2">
+
+    </div>
+
+    
+    </form>
+    </div>
+    <div class="table">
+        <table id="storeList">
+        
+            <thead>
+                <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Mobile Number</th>
+                <th>Message</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <!--Insert Data -->
+            </tbody>
+        </table>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
